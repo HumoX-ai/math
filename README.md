@@ -19,7 +19,9 @@ math/
 │   ├── 03-progress-log.md       ← kunlik jurnal (o'zing to'ldirasan)
 │   └── xatolar-daftari.md     ← xatolar daftari (eng qimmatli fayl)
 └── 01-algebra/
-    └── 01-tenglamalar-va-tengsizliklar/   ← ⭐ HOZIRGI MAVZU
+    ├── 01-tenglamalar-va-tengsizliklar/   ← ⭐ BOSHLA SHU YERDAN
+    ├── 02-funksiyalar/                    ← neyron tarmoq = funksiya
+    └── 03-daraja-va-ildizlar/             ← norm, √d, float32, scaling laws
 ```
 
 ---
@@ -44,9 +46,9 @@ Har mavzu tugagach, keyingisi uchun shu nomda papka ochiladi:
 
 | # | Papka | Mavzu | AI uchun muhimlik |
 |---|-------|-------|-------------------|
-| 01 | `01-algebra/01-tenglamalar-va-tengsizliklar` | Tenglamalar va tengsizliklar | ⭐⭐⭐⭐ |
-| 02 | `01-algebra/02-funksiyalar` | Funksiyalar | ⭐⭐⭐⭐⭐ |
-| 03 | `01-algebra/03-daraja-va-ildizlar` | Daraja va ildizlar | ⭐⭐⭐⭐ |
+| 01 | [`01-algebra/01-tenglamalar-va-tengsizliklar`](01-algebra/01-tenglamalar-va-tengsizliklar/README.md) | Tenglamalar va tengsizliklar ✅ | ⭐⭐⭐⭐ |
+| 02 | [`01-algebra/02-funksiyalar`](01-algebra/02-funksiyalar/README.md) | Funksiyalar ✅ | ⭐⭐⭐⭐⭐ |
+| 03 | [`01-algebra/03-daraja-va-ildizlar`](01-algebra/03-daraja-va-ildizlar/README.md) | Daraja va ildizlar ✅ | ⭐⭐⭐⭐ |
 | 04 | `01-algebra/04-logarifmlar` | Logarifmlar | ⭐⭐⭐⭐⭐ |
 | 05 | `01-algebra/05-eksponentalar` | Eksponentalar | ⭐⭐⭐⭐⭐ |
 | 06 | `01-algebra/06-polinomlar` | Polinomlar | ⭐⭐⭐ |
@@ -94,7 +96,7 @@ yozib bo'lganingdan keyin** och.
 # Python muhitini bir marta sozla
 python3 -m venv .venv
 source .venv/bin/activate
-pip install numpy sympy matplotlib
+pip install numpy sympy matplotlib   # matplotlib — 02-funksiyalar grafiklari uchun
 ```
 
 Har mavzuda `code/` papkasi bor — u yerdagi skriptlar sening qo'lda yechganingni tekshiradi.
